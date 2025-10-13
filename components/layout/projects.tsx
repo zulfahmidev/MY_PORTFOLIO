@@ -12,7 +12,7 @@ export default function Projects({onlySelected = false, projects = []} : {
 }) {
 
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 my-8 lg:p-5 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 mt-6 gap-6">
 
             {
                 projects

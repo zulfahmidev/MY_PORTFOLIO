@@ -23,7 +23,7 @@ export default function Workspace({projects = []} : {
                         <p className="opacity-50">{`Here's a curated selection showcasing my expertise and the achieved results.`}</p>
                     </div>
                     {
-                        <Link href="/portfolio" className="my-3 py-2 px-4 w-fit border-2 border-foreground rounded-full flex items-center gap-3 font-semibold">
+                        <Link href="/portfolio" className="my-3 py-2 px-4 w-fit border-2 border-foreground rounded-full flex items-center gap-3 font-semibold transition-transform duration-300 ease-in-out hover:scale-110">
                             <span>See All Project</span>
                             <FaArrowRight />
                         </Link>

@@ -111,7 +111,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           {children}
-          <ProgressiveBlur height="6rem" position="bottom" />
+          {/* <ProgressiveBlur height="6rem" position="bottom" /> */}
           <Footer />
           <Analytics />
         </Providers>

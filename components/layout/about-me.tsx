@@ -9,12 +9,12 @@ export default function AboutMe({isAboutPage=false} : {isAboutPage?: boolean}) {
                 <p className="text-3xl lg:text-5xl text-center my-8">A Software Engineer with over 5 years of experience in creating high-quality and impactful digital experiences. I have a strong focus on transforming complex problems into elegant and user-friendly interfaces.</p>
                 {
                     isAboutPage ? (
-                        <a href="/CV-Zulfahmi-Software-Engineer.pdf" className="py-2 px-4 border-2 border-foreground rounded-full flex items-center gap-3 font-semibold w-fit mx-auto" download>
+                        <a href="/CV-Zulfahmi-Software-Engineer.pdf" className="py-2 px-4 border-2 border-foreground rounded-full flex items-center gap-3 font-semibold w-fit mx-auto transition-transform duration-300 ease-in-out hover:scale-110" download>
                             <span>Download CV</span>
                             <FaDownload />
                         </a>
                     ) : (
-                        <Link href="/profile" className="py-2 px-4 border-2 border-foreground rounded-full flex items-center gap-3 font-semibold w-fit mx-auto">
+                        <Link href="/profile" className="py-2 px-4 border-2 border-foreground rounded-full flex items-center gap-3 font-semibold w-fit mx-auto transition-transform duration-300 ease-in-out hover:scale-110">
                             <span>See My Profile</span>
                             <FaArrowRight />
                         </Link>

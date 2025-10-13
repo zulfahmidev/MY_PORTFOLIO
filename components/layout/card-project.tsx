@@ -41,12 +41,12 @@ export default function CardProject({data}: {
 
     return (
         <Link href={`/portfolio/${data.slug}`}>
-            <article className="col-span-1 group">
+            <article className="col-span-1 group transition-transform duration-500 ease-in-out hover:scale-102">
                 <div className="aspect-[16/9] bg-slate-100 w-full rounded-xl relative overflow-hidden border border-foreground/1">
                     <Image
                         src={data.image?.url ?? '/assets/project.png'}
                         alt={data.image?.alt ?? data.title}
-                        className="object-cover object-center transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:rotate-3"
+                        className="object-cover object-center transition-transform duration-500 ease-in-out group-hover:scale-110"
                         fill />
                 </div>
                 <div className="py-3">

@@ -33,7 +33,7 @@ export function Header() {
         </div>
         <MorphingText className="my-8" texts={texts} />
         <p className="lg:w-[50%] text-center text-xl">I believe that code is a medium for creativity. My expertise is in turning great ideas into beautiful, functional, and memorable digital experiences.</p>
-        <a href="#about" className="bg-primary font-semibold py-3 px-6 text-lg my-8 relative rounded-full flex items-center gap-3 text-black">
+        <a href="#about" className="bg-primary font-semibold py-3 px-6 text-lg my-8 relative rounded-full flex items-center gap-3 text-black transition-transform duration-300 ease-in-out hover:scale-110">
           <span>Know Me More</span>
           <FaArrowRight />
         </a>
