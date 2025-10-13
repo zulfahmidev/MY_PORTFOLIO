@@ -13,7 +13,7 @@
             "start": "2024-10",
             "end": "2025-10"
         },
-        "stacks": ["flask", "postgre", "golang", "rabbit", "redis", "docker", "next", "flutter"]
+        "stacks": ["Flask", "PostgreSql", "Golang", "Rabbit", "Redis", "Docker", "Next.js", "Flutter", "Microservices"]
     },
     {
         "image": {
@@ -28,19 +28,7 @@
             "start": "2023-10",
             "end": "2024-01"
         },
-        "stacks": ["laravel", "jquery", "bootstrap", "mysql"]
-    },
-    {
-        "image": null,
-        "isSelected": false,
-        "title": "HRIS",
-        "slug": "hris",
-        "position": "As a Frontend Developer",
-        "estimate": {
-            "start": "2024-01",
-            "end": "2024-03"
-        },
-        "stacks": ["laravel", "mysql", "next", "tailwind"]
+        "stacks": ["Laravel", "JQuery", "Bootstrap", "MySql"]
     },
     {
         "image": {
@@ -55,7 +43,7 @@
             "start": "2021-06",
             "end": "2021-08"
         },
-        "stacks": ["laravel", "nuxt", "tailwind", "flutter", "mysql", "pusher", "gcp"]
+        "stacks": ["Laravel", "Vue.js", "Tailwind", "MySql"]
     },
     {
         "image": {
@@ -70,7 +58,7 @@
             "start": "2023-06",
             "end": "2023-08"
         },
-        "stacks": ["laravel", "nuxt", "tailwind", "flutter", "mysql", "pusher", "gcp"]
+        "stacks": ["Laravel", "Nuxt.js", "Tailwind", "Flutter", "MySql", "Pusher", "GCP"]
     },
     {
         "image": {
@@ -84,7 +72,7 @@
             "end": "2023-06"
         },
         "position": "As a Backend Developer",
-        "stacks": ["flask", "kotlin", "postgre", "tensorflow", "gcp"]
+        "stacks": ["Flask", "Kotlin", "PostgreSql", "Tensorflow", "GCP"]
     },
     {
         "image": {
@@ -99,7 +87,7 @@
             "end": "2022-12"
         },
         "position": "As a Backend Developer",
-        "stacks": ["laravel", "tailwind", "flutter", "vue", "mysql"]
+        "stacks": ["Laravel", "Tailwind", "Flutter", "Vue.js", "MySql"]
     },
     {
         "image": {
@@ -114,6 +102,6 @@
             "end": "2021-11"
         },
         "position": "As a Backend Developer",
-        "stacks": ["laravel", "tailwind", "mysql"]
+        "stacks": ["Laravel", "Tailwind", "MySql"]
     }
 ]

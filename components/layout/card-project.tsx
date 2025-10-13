@@ -6,86 +6,26 @@ import { FaFlutter } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiBootstrap, SiDocker, SiFlask, SiGo, SiGooglecloud, SiJquery, SiKotlin, SiMysql, SiNextdotjs, SiNuxtdotjs, SiPostgresql, SiPusher, SiRabbitmq, SiRedis, SiTensorflow, SiVuedotjs } from "react-icons/si";
 
-const stackIcons: Record<string, {
-    icon: IconType,
-    color: string
-}> = {
-    laravel: {
-        icon: FaLaravel,
-        color: '#F05340'
-    },
-    nuxt: {
-        icon: SiNuxtdotjs,
-        color: '#41B883'
-    },
-    tailwind: {
-        icon: RiTailwindCssFill,
-        color: '#42C0F8'
-    },
-    flutter: {
-        icon: FaFlutter,
-        color: '#64CBF9'
-    },
-    mysql: {
-        icon: SiMysql,
-        color: '#E97D1E'
-    },
-    pusher: {
-        icon: SiPusher,
-        color: '#29d97f'
-    },
-    flask: {
-        icon: SiFlask,
-        color: '#1b7d68'
-    },
-    tensorflow: {
-        icon: SiTensorflow,
-        color: '#ffa317'
-    },
-    gcp: {
-        icon: SiGooglecloud,
-        color: '#1b7d68'
-    },
-    postgre: {
-        icon: SiPostgresql,
-        color: '#1b7d68'
-    },
-    vue: {
-        icon: SiVuedotjs,
-        color: '#1b7d68'
-    },
-    kotlin: {
-        icon: SiKotlin,
-        color: '#1b7d68'
-    },
-    golang: {
-        icon: SiGo,
-        color: '#1b7d68'
-    },
-    rabbit: {
-        icon: SiRabbitmq,
-        color: '#1b7d68'
-    },
-    redis: {
-        icon: SiRedis,
-        color: '#1b7d68'
-    },
-    docker: {
-        icon: SiDocker,
-        color: '#1b7d68'
-    },
-    next: {
-        icon: SiNextdotjs,
-        color: '#1b7d68'
-    },
-    jquery: {
-        icon: SiJquery,
-        color: '#1b7d68'
-    },
-    bootstrap: {
-        icon: SiBootstrap,
-        color: '#1b7d68'
-    },
+const stackIcons: Record<string, IconType> = {
+    "laravel": FaLaravel,
+    "nuxt.js": SiNuxtdotjs,
+    "tailwind": RiTailwindCssFill,
+    "flutter": FaFlutter,
+    "mysql": SiMysql,
+    "pusher": SiPusher,
+    "flask": SiFlask,
+    "tensorflow": SiTensorflow,
+    "gcp": SiGooglecloud,
+    "postgresql": SiPostgresql,
+    "vue.js": SiVuedotjs,
+    "kotlin": SiKotlin,
+    "golang": SiGo,
+    "rabbit": SiRabbitmq,
+    "redis": SiRedis,
+    "docker": SiDocker,
+    "next.js": SiNextdotjs,
+    "jquery": SiJquery,
+    "bootstrap": SiBootstrap,
 }
 
 export default function CardProject({data}: {
@@ -127,14 +67,14 @@ export default function CardProject({data}: {
                     <div className="flex gap-3 items-center mt-2">
                         {
                             data.stacks.map((stack, i) => {
-                                if (stackIcons[stack]) {
-                                    const Icon = stackIcons[stack].icon
+                                if (stackIcons[stack.toLowerCase()]) {
+                                    const Icon = stackIcons[stack.toLowerCase()]
                                     return (
                                         <Icon key={i} className={`text-xl text-foreground/50`} />
                                     )
                                 }
                                 return null
-                            })
+                            }).filter(v => v != null)
                         }
                     </div>
                 </div>
