@@ -67,6 +67,7 @@
         },
         "isSelected": true,
         "title": "Arahku",
+        "slug": "arahku",
         "estimate": {
             "start": "2023-05",
             "end": "2023-06"
