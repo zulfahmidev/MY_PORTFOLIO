@@ -13,6 +13,15 @@
             "start": "2024-10",
             "end": "2025-10"
         },
+        "brief": "Localoka adalah platform pemasaran digital yang diinisiasi oleh Bank Rakyat Indonesia (BRI) untuk membantu UMKM binaan BRI memperluas jangkauan pasar mereka secara online. Melalui Localoka, para pelaku usaha dapat menampilkan, mempromosikan, dan mengelola produk mereka agar lebih mudah ditemukan oleh calon pembeli di seluruh Indonesia.",
+        "responsibilites": [
+            "Mengembangkan fitur-fitur baru dengan menerjemahkan kebutuhan bisnis menjadi solusi backend yang efisien dan skalabel.",
+            "Melakukan debugging serta perbaikan bug untuk meningkatkan stabilitas dan performa aplikasi.",
+            "Menjaga kualitas kode melalui code review, penerapan best practice, dan dokumentasi teknis yang rapi.",
+            "Menerapkan dan memperkuat lapisan keamanan pada sisi server untuk melindungi data pengguna dan transaksi digital.",
+            "Berkolaborasi dengan tim frontend, mobile, dan product untuk memastikan integrasi sistem berjalan lancar."
+        ],
+        "result": "Aplikasi Localoka berhasil dikembangkan dan digunakan oleh ribuan pengguna aktif, membantu ratusan UMKM binaan BRI meningkatkan visibilitas dan penjualan produk mereka di pasar digital nasional.",
         "stacks": ["Flask", "PostgreSql", "Golang", "Rabbit", "Redis", "Docker", "Next.js", "Flutter", "Microservices"]
     },
     {
