@@ -13,8 +13,8 @@ export default function ContactMe() {
     const [message, setMessage] = useState('')
 
     return (
-        <section className="container mx-auto" id="contact">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
+        <section className="container mx-auto my-8" id="contact">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16 items-center">
                 <div className="col-span-1 p-5 lg:p-0">
                     <h2 className="text-primary text-xl">Connect With Me</h2>
                     <p className="text-5xl font-bold my-2">
