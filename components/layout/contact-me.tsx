@@ -1,11 +1,17 @@
+"use client"
+
 import Image from "next/image";
 import { AnimatedShinyText } from "../ui/animated-shiny-text";
 import { ShineBorder } from "../ui/shine-border";
 import { BorderBeam } from "../ui/border-beam";
 import { LightRays } from "../ui/light-rays";
 import { FaEnvelope } from "react-icons/fa";
+import { useState } from "react";
 
 export default function ContactMe() {
+    const [fullname, setFullname] = useState('')
+    const [message, setMessage] = useState('')
+
     return (
         <section className="container mx-auto" id="contact">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
@@ -45,18 +51,22 @@ export default function ContactMe() {
                         <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
                         <div className="mb-3">
                             <label htmlFor="">Fullname</label>
-                            <input type="text" className="py-2 px-3 rounded-md border w-full my-2" placeholder="Type fullname" />
-                        </div>
-                        <div className="mb-3">
-                            <label htmlFor="">Email</label>
-                            <input type="text" className="py-2 px-3 rounded-md border w-full my-2" placeholder="Type your email" />
+                            <input type="text" onInput={(v) => {
+                                setFullname(v.currentTarget.value)
+                            }} className="py-2 px-3 rounded-md border w-full my-2" placeholder="Type fullname" />
                         </div>
                         <div className="mb-3">
                             <label htmlFor="">Message</label>
-                            <textarea className="py-2 px-3 rounded-md border w-full my-2" rows={5} placeholder="Type messages"></textarea>
+                            <textarea onInput={(v) => {
+                                setMessage(v.currentTarget.value)
+                            }} className="py-2 px-3 rounded-md border w-full my-2" rows={5} placeholder="Type messages"></textarea>
                         </div>
                         <div className="">
-                            <button className="py-2 px-4 text-background bg-primary rounded-lg cursor-pointer">Kirim</button>
+                            <a 
+                                href={`mailto:contact.zulfahmi@gmail.com?subject=${encodeURIComponent(`Email From ${fullname}`)}&body=${encodeURIComponent(message)}`}
+                                className="py-2 px-4 text-background bg-primary rounded-lg cursor-pointer inline-block">
+                                Kirim
+                            </a>
                         </div>
                     </div>
                 </div>
