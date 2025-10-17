@@ -88,7 +88,7 @@
         ],
         "result": "Tim Vocaject berhasil meraih Juara 3 di ajang KMIPN dan mendapatkan apresiasi positif dari pihak akademisi serta industri nasional karena inovasi dan potensi implementatifnya.",
         "stacks": ["Laravel", "Nuxt.js", "Tailwind", "Flutter", "MySQL", "Pusher", "GCP"]
-    },
+    }, 
     {
         "image": {
             "url": "/portfolio/arahku-mock.jpeg",
@@ -102,8 +102,18 @@
             "end": "2023-06"
         },
         "position": "As a Backend Developer",
-        "stacks": ["Flask", "Kotlin", "PostgreSql", "Tensorflow", "GCP"]
-    },
+        "brief": "Arahku adalah aplikasi berbasis Machine Learning yang membantu calon mahasiswa dalam menemukan potensi diri dan menentukan arah pendidikan yang sesuai. Dengan menjawab beberapa pertanyaan terkait minat dan kepribadian, sistem akan menganalisis data tersebut untuk mengidentifikasi potensi pengguna serta memberikan rekomendasi kampus dan jurusan yang paling cocok. Arahku dikembangkan sebagai proyek Capstone dalam program Bangkit Academy 2023.",
+        "responsibilities": [
+            "Menentukan visi, tujuan, dan ruang lingkup pengembangan aplikasi Arahku.",
+            "Merancang arsitektur backend meliputi desain database, struktur API, serta pemilihan teknologi pendukung.",
+            "Mengembangkan sisi Backend menggunakan Flask dengan arsitektur RESTful API untuk mendukung integrasi lintas platform.",
+            "Mengintegrasikan model Machine Learning berbasis TensorFlow ke dalam sistem backend.",
+            "Membangun sistem autentikasi dan manajemen data pengguna yang aman dan efisien.",
+            "Melakukan deployment dan pengujian sistem di Google Cloud Platform (GCP) untuk memastikan performa, skalabilitas, dan reliabilitas aplikasi."
+        ],
+        "result": "Tim Arahku berhasil menjadi salah satu dari 68 tim Capstone terbaik dari lebih dari 700+ tim di Bangkit Academy 2023, serta mendapatkan apresiasi positif dari juri dan reviewer atas inovasi dan keakuratan sistemnya.",
+        "stacks": ["Flask", "Kotlin", "PostgreSQL", "TensorFlow", "GCP"]
+    }, 
     {
         "image": {
             "url": "/portfolio/kopi-pas-mock.jpeg",
