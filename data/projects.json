@@ -137,7 +137,16 @@
             "end": "2021-11"
         },
         "position": "As a Backend Developer",
-        "stacks": ["Laravel", "Tailwind", "MySql"]
+        "brief": "Website Official UKM-POLICY merupakan situs resmi Unit Kegiatan Mahasiswa Programming Community (POLICY) yang berfungsi sebagai pusat informasi, dokumentasi kegiatan, dan media publikasi organisasi. Website ini dirancang untuk memperkuat identitas digital UKM serta memudahkan anggota dan publik dalam mengakses berbagai informasi terkait kegiatan, prestasi, dan keanggotaan.",
+        "responsibilities": [
+            "Merancang dan membangun arsitektur backend menggunakan Laravel dengan konsep MVC.",
+            "Membangun sistem manajemen konten (CMS) untuk memudahkan admin dalam mengelola berita, kegiatan, dan anggota.",
+            "Mengatur struktur database menggunakan MySQL agar data dapat diakses dan dikelola dengan efisien.",
+            "Berkolaborasi dengan tim frontend untuk mengintegrasikan desain antarmuka menggunakan TailwindCSS.",
+            "Melakukan testing dan debugging agar website berjalan stabil sebelum dirilis ke publik."
+        ],
+        "result": "Website UKM-POLICY berhasil diluncurkan sebagai platform resmi organisasi, digunakan secara aktif untuk publikasi kegiatan dan menjadi sarana komunikasi utama antar anggota.",
+        "stacks": ["Laravel", "Tailwind", "MySQL"]
     },
     {
         "image": {
@@ -147,11 +156,21 @@
         "isSelected": false,
         "title": "Wiraku",
         "slug": "wiraku",
-        "position": "As a Fullstack Developer",
+        "position": "As a Frontend Developer",
         "estimate": {
             "start": "2021-06",
             "end": "2021-08"
         },
-        "stacks": ["Laravel", "Vue.js", "Tailwind", "MySql"]
+        "brief": "Wiraku adalah platform pembelajaran digital yang berfokus pada pengembangan wirausaha muda di Indonesia. Website ini menyediakan berbagai kursus online, artikel bisnis, serta komunitas interaktif untuk membantu pengguna memperluas wawasan dan mengembangkan kemampuan dalam membangun usaha.",
+        "responsibilities": [
+            "Mengembangkan antarmuka pengguna (frontend) menggunakan Vue.js dan TailwindCSS dengan tampilan yang responsif dan modern.",
+            "Menerapkan desain berdasarkan wireframe dan panduan UI/UX yang telah ditetapkan tim desain.",
+            "Membangun halaman utama, dashboard kursus, dan halaman detail pelatihan.",
+            "Mengintegrasikan data dari API backend menggunakan Axios untuk menampilkan konten dinamis.",
+            "Mengoptimalkan performa tampilan agar ringan dan cepat diakses di berbagai perangkat.",
+            "Berkoordinasi dengan tim backend untuk memastikan integrasi fitur dan data berjalan lancar."
+        ],
+        "result": "Website Wiraku berhasil menampilkan tampilan antarmuka yang modern dan interaktif, memberikan pengalaman belajar yang mudah diakses bagi pengguna yang ingin mengembangkan usaha mereka secara digital.",
+        "stacks": ["Laravel", "Vue.js", "Tailwind", "MySQL"]
     }
 ]
