@@ -20,7 +20,7 @@ export default function ContactMe() {
                             <Image 
                                 className="rounded-full"
                                 src={'/assets/profile.jpeg'}
-                                alt=""
+                                alt="profile picture zulfahmi"
                                 fill />
 
                             <BorderBeam

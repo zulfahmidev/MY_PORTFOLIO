@@ -50,21 +50,6 @@
     },
     {
         "image": {
-            "url": "/portfolio/wiraku-mock.jpeg",
-            "alt": "mock wiraku application"
-        },
-        "isSelected": false,
-        "title": "Wiraku",
-        "slug": "wiraku",
-        "position": "As a Fullstack Developer",
-        "estimate": {
-            "start": "2021-06",
-            "end": "2021-08"
-        },
-        "stacks": ["Laravel", "Vue.js", "Tailwind", "MySql"]
-    },
-    {
-        "image": {
             "url": "/portfolio/vocaject-mock.jpeg",
             "alt": "mock vocaject application"
         },
@@ -127,6 +112,16 @@
             "end": "2022-12"
         },
         "position": "As a Backend Developer",
+        "brief": "Arahku adalah aplikasi berbasis Machine Learning yang membantu calon mahasiswa dalam menemukan potensi diri dan menentukan arah pendidikan yang sesuai. Dengan menjawab beberapa pertanyaan terkait minat dan kepribadian, sistem akan menganalisis data tersebut untuk mengidentifikasi potensi pengguna serta memberikan rekomendasi kampus dan jurusan yang paling cocok. Arahku dikembangkan sebagai proyek Capstone dalam program Bangkit Academy 2023.",
+        "responsibilities": [
+            "Menentukan visi, tujuan, dan ruang lingkup pengembangan aplikasi Arahku.",
+            "Merancang arsitektur backend meliputi desain database, struktur API, serta pemilihan teknologi pendukung.",
+            "Mengembangkan sisi Backend menggunakan Flask dengan arsitektur RESTful API untuk mendukung integrasi lintas platform.",
+            "Mengintegrasikan model Machine Learning berbasis TensorFlow ke dalam sistem backend.",
+            "Membangun sistem autentikasi dan manajemen data pengguna yang aman dan efisien.",
+            "Melakukan deployment dan pengujian sistem di Google Cloud Platform (GCP) untuk memastikan performa, skalabilitas, dan reliabilitas aplikasi."
+        ],
+        "result": "Tim Arahku berhasil menjadi salah satu dari 68 tim Capstone terbaik dari lebih dari 700+ tim di Bangkit Academy 2023, serta mendapatkan apresiasi positif dari juri dan reviewer atas inovasi dan keakuratan sistemnya.",
         "stacks": ["Laravel", "Tailwind", "Flutter", "Vue.js", "MySql"]
     },
     {
@@ -143,5 +138,20 @@
         },
         "position": "As a Backend Developer",
         "stacks": ["Laravel", "Tailwind", "MySql"]
+    },
+    {
+        "image": {
+            "url": "/portfolio/wiraku-mock.jpeg",
+            "alt": "mock wiraku application"
+        },
+        "isSelected": false,
+        "title": "Wiraku",
+        "slug": "wiraku",
+        "position": "As a Fullstack Developer",
+        "estimate": {
+            "start": "2021-06",
+            "end": "2021-08"
+        },
+        "stacks": ["Laravel", "Vue.js", "Tailwind", "MySql"]
     }
 ]
