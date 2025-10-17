@@ -38,7 +38,7 @@ export default function ContactMe() {
                             />
                         </div>
                         <figcaption className="font-semibold text-xl text-center mt-3">Zulfahmi</figcaption>
-                        <blockquote className="w-[80%] opacity-50 text-center mx-auto">Saya percaya karya terbaik lahir dari kolaborasi dan ide bersama, silakan hubungi saya dan mari kita wujudkan sesuatu yang berdampak bersama.</blockquote>
+                        <blockquote className="w-[80%] opacity-50 text-center mx-auto">I believe the best works are born from collaboration and shared ideas. Feel free to contact me, and let’s create something impactful together.</blockquote>
                         <a href="mailto:contact.zulfahmi@gmail.com" className="flex gap-3 items-center font-semibold w-fit py-3 px-4 rounded-lg bg-foreground mx-auto text-background mt-3 relative">
                             <span><FaEnvelope /></span>
                             <span>Email Me</span>

@@ -1,6 +1,7 @@
 import AboutMe from "@/components/layout/about-me";
 import ContactMe from "@/components/layout/contact-me";
 import { Header } from "@/components/layout/header";
+import { Templates } from "@/components/layout/templates";
 import Workspace from "@/components/layout/workspace";
 import { ReadData } from "@/lib/helper";
 import { Suspense } from "react";

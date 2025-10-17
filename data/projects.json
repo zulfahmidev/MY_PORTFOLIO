@@ -1,4 +1,3 @@
-
 [
     {
         "image": {
@@ -13,16 +12,16 @@
             "start": "2024-10",
             "end": "2025-10"
         },
-        "brief": "Localoka adalah platform pemasaran digital yang diinisiasi oleh Bank Rakyat Indonesia (BRI) untuk membantu UMKM binaan BRI memperluas jangkauan pasar mereka secara online. Melalui Localoka, para pelaku usaha dapat menampilkan, mempromosikan, dan mengelola produk mereka agar lebih mudah ditemukan oleh calon pembeli di seluruh Indonesia.",
+        "brief": "Localoka is a digital marketing platform initiated by Bank Rakyat Indonesia (BRI) to help BRI-assisted MSMEs expand their market reach online. Through Localoka, business owners can showcase, promote, and manage their products to make them more discoverable by potential buyers across Indonesia.",
         "responsibilities": [
-            "Mengembangkan fitur-fitur baru dengan menerjemahkan kebutuhan bisnis menjadi solusi backend yang efisien dan skalabel.",
-            "Melakukan debugging serta perbaikan bug untuk meningkatkan stabilitas dan performa aplikasi.",
-            "Menjaga kualitas kode melalui code review, penerapan best practice, dan dokumentasi teknis yang rapi.",
-            "Menerapkan dan memperkuat lapisan keamanan pada sisi server untuk melindungi data pengguna dan transaksi digital.",
-            "Berkolaborasi dengan tim frontend, mobile, dan product untuk memastikan integrasi sistem berjalan lancar."
+            "Developed new features by translating business needs into efficient and scalable backend solutions.",
+            "Performed debugging and bug fixing to improve application stability and performance.",
+            "Maintained code quality through code reviews, best practices implementation, and comprehensive technical documentation.",
+            "Implemented and strengthened server-side security layers to protect user data and digital transactions.",
+            "Collaborated with frontend, mobile, and product teams to ensure smooth system integration."
         ],
-        "result": "Fitur-fitur baru dari aplikasi Localoka berhasil dikembangkan dengan efektif dan bugs yang terjadi di aplikasi Localoka berhasil ditangani dan teratasi sehingga memuaskan ribuan pengguna aktif, membantu ratusan UMKM binaan BRI meningkatkan visibilitas dan penjualan produk mereka di pasar digital nasional.",
-        "stacks": ["Flask", "PostgreSql", "Golang", "Rabbit", "Redis", "Docker", "Next.js", "Flutter", "Microservices"]
+        "result": "Successfully developed new features and resolved bugs in the Localoka application, leading to improved stability and user satisfaction. The platform now supports thousands of active users and helps hundreds of BRI-assisted MSMEs increase their visibility and sales in the national digital market.",
+        "stacks": ["Flask", "PostgreSQL", "Golang", "Rabbit", "Redis", "Docker", "Next.js", "Flutter", "Microservices"]
     },
     {
         "image": {
@@ -37,16 +36,16 @@
             "start": "2023-10",
             "end": "2024-01"
         },
-        "brief": "Zavis merupakan aplikasi Loyaliti Member Yang Digunakan Untuk mengumpulkan Poin dan Dapat Ditukarkan Dengan Berbagai Promo Yang Menarik.",
+        "brief": "Zavis is a loyalty membership application designed to collect points that can be redeemed for various exciting promotions and rewards.",
         "responsibilities": [
-            "Mengembangkan fitur-fitur baru dengan menerjemahkan kebutuhan bisnis menjadi solusi backend yang efisien dan skalabel.",
-            "Melakukan debugging serta perbaikan bug untuk meningkatkan stabilitas dan performa aplikasi.",
-            "Menjaga kualitas kode melalui code review, penerapan best practice, dan dokumentasi teknis yang rapi.",
-            "Menerapkan dan memperkuat lapisan keamanan pada sisi server untuk melindungi data pengguna dan transaksi digital.",
-            "Berkolaborasi dengan tim ui/ux dan product untuk memastikan integrasi sistem berjalan lancar."
+            "Developed new features by translating business requirements into efficient and scalable backend solutions.",
+            "Performed debugging and bug fixing to improve system stability and performance.",
+            "Maintained code quality through code reviews, best practice implementations, and clear technical documentation.",
+            "Enhanced server-side security to protect user data and digital transactions.",
+            "Collaborated with UI/UX and product teams to ensure seamless integration across systems."
         ],
-        "result": "Aplikasi Zavis berhasil diluncurkan dan digunakan oleh ribuan pengguna aktif dan mendapatkan feedback positif dari pengguna.",
-        "stacks": ["Laravel", "JQuery", "Bootstrap", "MySql"]
+        "result": "The Zavis application was successfully launched and adopted by thousands of active users, receiving positive feedback for its functionality and usability.",
+        "stacks": ["Laravel", "jQuery", "Bootstrap", "MySQL"]
     },
     {
         "image": {
@@ -61,19 +60,19 @@
             "start": "2023-06",
             "end": "2023-08"
         },
-        "brief": "Vocaject adalah aplikasi yang menghubungkan Mahasiswa dengan industri atau individu yang membutuhkan tenaga ahli untuk mengerjakan proyek tertentu. Platform ini memberikan kesempatan bagi Mahasiswa untuk mengasah keterampilan praktis, memperluas jaringan profesional, serta membangun portofolio kerja nyata dengan dukungan kampus sebagai pihak penjamin. Aplikasi ini dikembangkan sebagai proyek utama dalam ajang Hackathon Kompetisi Mahasiswa Informatika Politeknik Nasional (KMIPN).",
+        "brief": "Vocaject is a platform that connects university students with industries or individuals seeking skilled professionals for specific projects. It enables students to hone practical skills, expand professional networks, and build real-world portfolios with institutional support. The application was developed as the main project for the Hackathon of the National Polytechnic Informatics Student Competition (KMIPN).",
         "responsibilities": [
-            "Menentukan visi, tujuan, dan ruang lingkup proyek Vocaject.",
-            "Merancang arsitektur aplikasi, termasuk struktur database, pemilihan teknologi, dan desain sistem.",
-            "Mengembangkan sisi Backend menggunakan Laravel dengan arsitektur RESTful API.",
-            "Membangun sisi Frontend Web menggunakan Nuxt.js dan TailwindCSS untuk antarmuka yang modern dan responsif.",
-            "Mengintegrasikan sistem notifikasi real-time menggunakan Pusher.",
-            "Menerapkan deployment di Google Cloud Platform (GCP) untuk skalabilitas dan reliabilitas sistem.",
-            "Mengelola manajemen proyek dan koordinasi antar anggota tim agar pengembangan berjalan efektif dan sesuai target."
+            "Defined the vision, goals, and project scope for Vocaject.",
+            "Designed the application architecture, including database structure, technology stack, and system design.",
+            "Developed the backend using Laravel with RESTful API architecture.",
+            "Built the web frontend using Nuxt.js and TailwindCSS for a modern and responsive interface.",
+            "Integrated real-time notification systems using Pusher.",
+            "Deployed the system on Google Cloud Platform (GCP) for scalability and reliability.",
+            "Managed project coordination and team workflow to ensure on-time development and delivery."
         ],
-        "result": "Tim Vocaject berhasil meraih Juara 3 di ajang KMIPN dan mendapatkan apresiasi positif dari pihak akademisi serta industri nasional karena inovasi dan potensi implementatifnya.",
+        "result": "The Vocaject team won 3rd place at KMIPN and received positive recognition from academic and industry judges for its innovation and implementation potential.",
         "stacks": ["Laravel", "Nuxt.js", "Tailwind", "Flutter", "MySQL", "Pusher", "GCP"]
-    }, 
+    },
     {
         "image": {
             "url": "/portfolio/arahku-mock.jpeg",
@@ -87,42 +86,41 @@
             "end": "2023-06"
         },
         "position": "As a Backend Developer",
-        "brief": "Arahku adalah aplikasi berbasis Machine Learning yang membantu calon mahasiswa dalam menemukan potensi diri dan menentukan arah pendidikan yang sesuai. Dengan menjawab beberapa pertanyaan terkait minat dan kepribadian, sistem akan menganalisis data tersebut untuk mengidentifikasi potensi pengguna serta memberikan rekomendasi kampus dan jurusan yang paling cocok. Arahku dikembangkan sebagai proyek Capstone dalam program Bangkit Academy 2023.",
+        "brief": "Arahku is a machine learning–based application that helps prospective students discover their potential and find the most suitable educational path. By answering a set of questions about interests and personality, the system analyzes data to identify strengths and recommend universities and majors that fit best. Arahku was developed as a Capstone Project in the Bangkit Academy 2023 program.",
         "responsibilities": [
-            "Menentukan visi, tujuan, dan ruang lingkup pengembangan aplikasi Arahku.",
-            "Merancang arsitektur backend meliputi desain database, struktur API, serta pemilihan teknologi pendukung.",
-            "Mengembangkan sisi Backend menggunakan Flask dengan arsitektur RESTful API untuk mendukung integrasi lintas platform.",
-            "Mengintegrasikan model Machine Learning berbasis TensorFlow ke dalam sistem backend.",
-            "Membangun sistem autentikasi dan manajemen data pengguna yang aman dan efisien.",
-            "Melakukan deployment dan pengujian sistem di Google Cloud Platform (GCP) untuk memastikan performa, skalabilitas, dan reliabilitas aplikasi."
+            "Defined the project vision, objectives, and development scope for Arahku.",
+            "Designed backend architecture including database schema, API structure, and supporting technologies.",
+            "Developed the backend using Flask with a RESTful API architecture to support cross-platform integration.",
+            "Integrated a TensorFlow-based machine learning model into the backend system.",
+            "Built a secure and efficient authentication and user data management system.",
+            "Deployed and tested the system on Google Cloud Platform (GCP) to ensure performance, scalability, and reliability."
         ],
-        "result": "Tim Arahku berhasil menjadi salah satu dari 68 tim Capstone terbaik dari lebih dari 700+ tim di Bangkit Academy 2023, serta mendapatkan apresiasi positif dari juri dan reviewer atas inovasi dan keakuratan sistemnya.",
+        "result": "The Arahku team was recognized as one of the top 68 Capstone teams out of 700+ teams in Bangkit Academy 2023, receiving positive feedback from judges and reviewers for innovation and system accuracy.",
         "stacks": ["Flask", "Kotlin", "PostgreSQL", "TensorFlow", "GCP"]
-    }, 
+    },
     {
         "image": {
             "url": "/portfolio/kopi-pas-mock.jpeg",
             "alt": "mock kopi pas application"
         },
         "isSelected": false,
-        "title": "Aplikasi Kopi Pas",
+        "title": "Kopi Pas Application",
         "slug": "aplikasi-kopi-pas",
         "estimate": {
             "start": "2022-10",
             "end": "2022-12"
         },
         "position": "As a Backend Developer",
-        "brief": "Arahku adalah aplikasi berbasis Machine Learning yang membantu calon mahasiswa dalam menemukan potensi diri dan menentukan arah pendidikan yang sesuai. Dengan menjawab beberapa pertanyaan terkait minat dan kepribadian, sistem akan menganalisis data tersebut untuk mengidentifikasi potensi pengguna serta memberikan rekomendasi kampus dan jurusan yang paling cocok. Arahku dikembangkan sebagai proyek Capstone dalam program Bangkit Academy 2023.",
+        "brief": "Kopi Pas is a mobile-based coffee shop management application designed to streamline order processing, menu management, and customer loyalty programs. It was developed as a semester project to enhance operational efficiency for small-scale coffee businesses.",
         "responsibilities": [
-            "Menentukan visi, tujuan, dan ruang lingkup pengembangan aplikasi Arahku.",
-            "Merancang arsitektur backend meliputi desain database, struktur API, serta pemilihan teknologi pendukung.",
-            "Mengembangkan sisi Backend menggunakan Flask dengan arsitektur RESTful API untuk mendukung integrasi lintas platform.",
-            "Mengintegrasikan model Machine Learning berbasis TensorFlow ke dalam sistem backend.",
-            "Membangun sistem autentikasi dan manajemen data pengguna yang aman dan efisien.",
-            "Melakukan deployment dan pengujian sistem di Google Cloud Platform (GCP) untuk memastikan performa, skalabilitas, dan reliabilitas aplikasi."
+            "Designed backend architecture using Laravel with MVC concept.",
+            "Built APIs to manage menu data, orders, and user authentication.",
+            "Integrated the backend with the Flutter mobile frontend.",
+            "Optimized database design in MySQL for faster query performance.",
+            "Collaborated with frontend developers to ensure smooth API communication."
         ],
-        "result": "Tim Arahku berhasil menjadi salah satu dari 68 tim Capstone terbaik dari lebih dari 700+ tim di Bangkit Academy 2023, serta mendapatkan apresiasi positif dari juri dan reviewer atas inovasi dan keakuratan sistemnya.",
-        "stacks": ["Laravel", "Tailwind", "Flutter", "Vue.js", "MySql"]
+        "result": "The Kopi Pas application successfully demonstrated seamless order processing and was adopted by small coffee shop owners for pilot use.",
+        "stacks": ["Laravel", "Tailwind", "Flutter", "Vue.js", "MySQL"]
     },
     {
         "image": {
@@ -130,22 +128,22 @@
             "alt": "mock web policy"
         },
         "isSelected": false,
-        "title": "Website Official UKM-POLICY",
+        "title": "Official Website of UKM-POLICY",
         "slug": "website-official-ukm-policy",
         "estimate": {
             "start": "2021-09",
             "end": "2021-11"
         },
         "position": "As a Backend Developer",
-        "brief": "Website Official UKM-POLICY merupakan situs resmi Unit Kegiatan Mahasiswa Programming Community (POLICY) yang berfungsi sebagai pusat informasi, dokumentasi kegiatan, dan media publikasi organisasi. Website ini dirancang untuk memperkuat identitas digital UKM serta memudahkan anggota dan publik dalam mengakses berbagai informasi terkait kegiatan, prestasi, dan keanggotaan.",
+        "brief": "The Official Website of UKM-POLICY serves as the digital hub for the Programming Community (POLICY) student organization, providing information, event documentation, and publication channels. The website was designed to strengthen the organization’s digital presence and facilitate communication among members and the public.",
         "responsibilities": [
-            "Merancang dan membangun arsitektur backend menggunakan Laravel dengan konsep MVC.",
-            "Membangun sistem manajemen konten (CMS) untuk memudahkan admin dalam mengelola berita, kegiatan, dan anggota.",
-            "Mengatur struktur database menggunakan MySQL agar data dapat diakses dan dikelola dengan efisien.",
-            "Berkolaborasi dengan tim frontend untuk mengintegrasikan desain antarmuka menggunakan TailwindCSS.",
-            "Melakukan testing dan debugging agar website berjalan stabil sebelum dirilis ke publik."
+            "Designed and developed backend architecture using Laravel with MVC design pattern.",
+            "Built a content management system (CMS) for managing news, activities, and membership data.",
+            "Structured the database using MySQL for efficient data storage and access.",
+            "Collaborated with the frontend team to integrate designs using TailwindCSS.",
+            "Conducted testing and debugging to ensure the website’s stability before public launch."
         ],
-        "result": "Website UKM-POLICY berhasil diluncurkan sebagai platform resmi organisasi, digunakan secara aktif untuk publikasi kegiatan dan menjadi sarana komunikasi utama antar anggota.",
+        "result": "The UKM-POLICY website was successfully launched as the official organizational platform, actively used for event publications and member communication.",
         "stacks": ["Laravel", "Tailwind", "MySQL"]
     },
     {
@@ -161,16 +159,16 @@
             "start": "2021-06",
             "end": "2021-08"
         },
-        "brief": "Wiraku adalah platform pembelajaran digital yang berfokus pada pengembangan wirausaha muda di Indonesia. Website ini menyediakan berbagai kursus online, artikel bisnis, serta komunitas interaktif untuk membantu pengguna memperluas wawasan dan mengembangkan kemampuan dalam membangun usaha.",
+        "brief": "Wiraku is a digital learning platform focused on developing young entrepreneurs in Indonesia. It offers online courses, business articles, and interactive communities to help users expand their knowledge and entrepreneurial skills.",
         "responsibilities": [
-            "Mengembangkan antarmuka pengguna (frontend) menggunakan Vue.js dan TailwindCSS dengan tampilan yang responsif dan modern.",
-            "Menerapkan desain berdasarkan wireframe dan panduan UI/UX yang telah ditetapkan tim desain.",
-            "Membangun halaman utama, dashboard kursus, dan halaman detail pelatihan.",
-            "Mengintegrasikan data dari API backend menggunakan Axios untuk menampilkan konten dinamis.",
-            "Mengoptimalkan performa tampilan agar ringan dan cepat diakses di berbagai perangkat.",
-            "Berkoordinasi dengan tim backend untuk memastikan integrasi fitur dan data berjalan lancar."
+            "Developed responsive and modern user interfaces using Vue.js and TailwindCSS.",
+            "Implemented designs based on wireframes and established UI/UX guidelines.",
+            "Built the homepage, course dashboard, and training detail pages.",
+            "Integrated dynamic data from backend APIs using Axios.",
+            "Optimized frontend performance for accessibility and fast loading times across devices.",
+            "Coordinated with the backend team to ensure smooth data and feature integration."
         ],
-        "result": "Website Wiraku berhasil menampilkan tampilan antarmuka yang modern dan interaktif, memberikan pengalaman belajar yang mudah diakses bagi pengguna yang ingin mengembangkan usaha mereka secara digital.",
+        "result": "The Wiraku website successfully delivered a modern and interactive user interface, providing an accessible learning experience for aspiring digital entrepreneurs.",
         "stacks": ["Laravel", "Vue.js", "Tailwind", "MySQL"]
     }
 ]
