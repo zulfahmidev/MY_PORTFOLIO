@@ -76,7 +76,18 @@
             "start": "2023-06",
             "end": "2023-08"
         },
-        "stacks": ["Laravel", "Nuxt.js", "Tailwind", "Flutter", "MySql", "Pusher", "GCP"]
+        "brief": "Vocaject adalah aplikasi yang menghubungkan Mahasiswa dengan industri atau individu yang membutuhkan tenaga ahli untuk mengerjakan proyek tertentu. Platform ini memberikan kesempatan bagi Mahasiswa untuk mengasah keterampilan praktis, memperluas jaringan profesional, serta membangun portofolio kerja nyata dengan dukungan kampus sebagai pihak penjamin. Aplikasi ini dikembangkan sebagai proyek utama dalam ajang Hackathon Kompetisi Mahasiswa Informatika Politeknik Nasional (KMIPN).",
+        "responsibilities": [
+            "Menentukan visi, tujuan, dan ruang lingkup proyek Vocaject.",
+            "Merancang arsitektur aplikasi, termasuk struktur database, pemilihan teknologi, dan desain sistem.",
+            "Mengembangkan sisi Backend menggunakan Laravel dengan arsitektur RESTful API.",
+            "Membangun sisi Frontend Web menggunakan Nuxt.js dan TailwindCSS untuk antarmuka yang modern dan responsif.",
+            "Mengintegrasikan sistem notifikasi real-time menggunakan Pusher.",
+            "Menerapkan deployment di Google Cloud Platform (GCP) untuk skalabilitas dan reliabilitas sistem.",
+            "Mengelola manajemen proyek dan koordinasi antar anggota tim agar pengembangan berjalan efektif dan sesuai target."
+        ],
+        "result": "Tim Vocaject berhasil meraih Juara 3 di ajang KMIPN dan mendapatkan apresiasi positif dari pihak akademisi serta industri nasional karena inovasi dan potensi implementatifnya.",
+        "stacks": ["Laravel", "Nuxt.js", "Tailwind", "Flutter", "MySQL", "Pusher", "GCP"]
     },
     {
         "image": {
