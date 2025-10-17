@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   description: "Hi, I'm Zulfahmi, A Software Engineer with over 5 years of experience in creating high-quality and impactful digital experiences. I have a strong focus on transforming complex problems into elegant and user-friendly interfaces.",
   keywords: [
-    "Zulfahmi", "Backend Developer", "Golang", "Python", "PHP", "Portfolio", "Backend Engineer", "Frontend Developer", "Frontend Engineer", "Fullstack Developer", "Fullstack Engineer", "Software Developer", "Software Engineer", "Java", "JavaScript", "Flask", "MongoDB", "MySql", "PostgreSql", "Firebase", "Laravel", "Gin", "Fiber", "Next.js", "Nuxt.js", "Vue.js", "React.js", "Node.js", "Express.js", "Nest.js", "Fastify.js", "CodeIgniter", "Django", "Java Spring Boot", "APIs", "Website", "Application", "Design", "UI/UX", "Vocaject", "Arahku", "UKM POLICY", "Kopi Pas", "Google Cloud Platform", "Tensorflow", "Super Pasar Rakyat Indonesia", "Sekawan Media Informatika"
+    "Zulfahmi", "Backend Developer", "Golang", "Python", "PHP", "Portfolio", "Backend Engineer", "Frontend Developer", "Frontend Engineer", "Fullstack Developer", "Fullstack Engineer", "Software Developer", "Software Engineer", "Java", "JavaScript", "Flask", "MongoDB", "MySql", "PostgreSql", "Firebase", "Laravel", "Gin", "Fiber", "Next.js", "Nuxt.js", "Vue.js", "React.js", "Node.js", "Express.js", "Nest.js", "Fastify.js", "CodeIgniter", "Django", "Java Spring Boot", "APIs", "Website", "Application", "Design", "UI/UX", "Vocaject", "Arahku", "UKM POLICY", "Kopi Pas", "Google Cloud Platform", "Tensorflow", "Super Pasar Rakyat Indonesia", "Sekawan Media Informatika", "Aceh", "Lhokseumawe"
   ],
   authors: [{ name: "Zulfahmi", url: "https://zulfahmidev.com" }],
   creator: "Zulfahmi",

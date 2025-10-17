@@ -21,7 +21,7 @@
             "Menerapkan dan memperkuat lapisan keamanan pada sisi server untuk melindungi data pengguna dan transaksi digital.",
             "Berkolaborasi dengan tim frontend, mobile, dan product untuk memastikan integrasi sistem berjalan lancar."
         ],
-        "result": "Aplikasi Localoka berhasil dikembangkan dan digunakan oleh ribuan pengguna aktif, membantu ratusan UMKM binaan BRI meningkatkan visibilitas dan penjualan produk mereka di pasar digital nasional.",
+        "result": "Fitur-fitur baru dari aplikasi Localoka berhasil dikembangkan dengan efektif dan bugs yang terjadi di aplikasi Localoka berhasil ditangani dan teratasi sehingga memuaskan ribuan pengguna aktif, membantu ratusan UMKM binaan BRI meningkatkan visibilitas dan penjualan produk mereka di pasar digital nasional.",
         "stacks": ["Flask", "PostgreSql", "Golang", "Rabbit", "Redis", "Docker", "Next.js", "Flutter", "Microservices"]
     },
     {
@@ -30,13 +30,22 @@
             "alt": "zavis voucher"
         },
         "isSelected": true,
-        "title": "Zavis Voucher",
-        "slug": "zavis-voucher",
+        "title": "Zavis",
+        "slug": "zavis",
         "position": "As a Fullstack Developer",
         "estimate": {
             "start": "2023-10",
             "end": "2024-01"
         },
+        "brief": "Zavis merupakan aplikasi Loyaliti Member Yang Digunakan Untuk mengumpulkan Poin dan Dapat Ditukarkan Dengan Berbagai Promo Yang Menarik.",
+        "responsibilities": [
+            "Mengembangkan fitur-fitur baru dengan menerjemahkan kebutuhan bisnis menjadi solusi backend yang efisien dan skalabel.",
+            "Melakukan debugging serta perbaikan bug untuk meningkatkan stabilitas dan performa aplikasi.",
+            "Menjaga kualitas kode melalui code review, penerapan best practice, dan dokumentasi teknis yang rapi.",
+            "Menerapkan dan memperkuat lapisan keamanan pada sisi server untuk melindungi data pengguna dan transaksi digital.",
+            "Berkolaborasi dengan tim ui/ux dan product untuk memastikan integrasi sistem berjalan lancar."
+        ],
+        "result": "Aplikasi Zavis berhasil diluncurkan dan digunakan oleh ribuan pengguna aktif dan mendapatkan feedback positif dari pengguna.",
         "stacks": ["Laravel", "JQuery", "Bootstrap", "MySql"]
     },
     {
