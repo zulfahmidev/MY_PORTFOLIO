@@ -95,6 +95,10 @@ export const metadata: Metadata = {
   applicationName: "Zulfahmidev",
   category: "Portfolio",
   generator: "Next.js 14",
+  
+  other: {
+    "google-adsense-account": "ca-pub-9634380513791071",
+  },
 };
 
 export default function RootLayout({
