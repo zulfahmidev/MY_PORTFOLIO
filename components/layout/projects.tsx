@@ -1,9 +1,5 @@
 "use client"
 
-import Image from "next/image";
-import { AnimatedShinyText } from "../ui/animated-shiny-text";
-import { FaArrowRight } from "react-icons/fa";
-import Link from "next/link";
 import CardProject from "./card-project";
 
 export default function Projects({onlySelected = false, projects = []} : {

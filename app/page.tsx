@@ -8,6 +8,7 @@ import { Suspense } from "react";
 
 export default async function Home() {
   const projects = await ReadData('projects.json')
+  const templates = await ReadData('templates.json')
   return (
     <>
       <Header />
@@ -17,7 +18,7 @@ export default async function Home() {
           <Workspace projects={projects} />
           {/* <Apps /> */}
           {/* <Blog /> */}
-          {/* <Templates /> */}
+          <Templates templates={templates} />
           <ContactMe />
         </Suspense>
       </main>

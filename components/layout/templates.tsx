@@ -4,8 +4,11 @@ import { AnimatedShinyText } from "../ui/animated-shiny-text"
 import { FaArrowRight } from "react-icons/fa"
 import Image from "next/image"
 import TemplateCard from "./template-card"
+import Link from "next/link"
 
-export function Templates() {
+export function Templates({templates} : {
+    templates: Template[]
+}) {
   return (
     <div className="">
         <div className="text-center">
@@ -16,13 +19,9 @@ export function Templates() {
         </div>
         <div className="mt-16 relative flex w-full flex-col items-center justify-center overflow-hidden">
             <Marquee pauseOnHover className="[--duration:20s]">
-                {/* {firstRow.map((review) => (
-                ))} */}
-                <TemplateCard />
-                <TemplateCard />
-                <TemplateCard />
-                <TemplateCard />
-                <TemplateCard />
+                {
+                    templates.map((v, i) => (<TemplateCard key={i} data={v} />))
+                }
             </Marquee>
             {/* <Marquee reverse pauseOnHover className="[--duration:20s]">
                 {secondRow.map((review) => (
@@ -32,10 +31,10 @@ export function Templates() {
             <div className="from-background pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r"></div>
             <div className="from-background pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l"></div>
         </div>
-        <a href="" className="my-8 py-2 px-4 border-2 border-foreground rounded-full flex items-center gap-3 font-semibold w-fit mx-auto transition-transform duration-300 ease-in-out hover:scale-110">
+        <Link href="/template" className="my-8 py-2 px-4 border-2 border-foreground rounded-full flex items-center gap-3 font-semibold w-fit mx-auto transition-transform duration-300 ease-in-out hover:scale-110">
             <span>Show All Templates</span>
             <FaArrowRight />
-        </a>
+        </Link>
     </div>
   )
 }

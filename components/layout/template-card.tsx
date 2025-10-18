@@ -1,7 +1,12 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import Link from "next/link";
+import { FaEye } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa6";
 
-export default function TemplateCard() {
+export default function TemplateCard({data} : {
+  data: Template
+}) {
   return (
     <figure
       className={cn(
@@ -15,12 +20,19 @@ export default function TemplateCard() {
       <div className="relative aspect-video rounded-lg overflow-hidden">
         <Image
           className=""
-          src={'/template.png'}
-          alt="" 
+          src={data.image?.url ?? ''}
+          alt={data.image?.alt ?? ''}
           fill />
         <div className="opacity-0 hover:opacity-100 bg-background/50 backdrop-blur-md absolute left-0 top-o w-full h-full rounded-lg transition-all flex flex-col items-center justify-center gap-3">
-          <div className="w-fit py-2 px-4 text-sm text-background rounded-lg bg-foreground cursor-pointer">Beli Sekarang</div>
-          <div className="w-fit py-2 px-4 text-sm text-foreground rounded-lg border border-foreground cursor-pointer">Lihat</div>
+          <div className="capitalize">{data.name}</div>
+          <div className="flex gap-3">
+            <Link href={`/template/${data.slug}/download`} className="w-fit py-2 px-4 text-sm text-background rounded-lg bg-foreground cursor-pointer">
+              <FaDownload />
+            </Link>
+            <Link href={`/template/${data.slug}`} className="w-fit py-2 px-4 text-sm text-foreground rounded-lg border border-foreground cursor-pointer">
+              <FaEye />
+            </Link>
+          </div>
         </div>
       </div>
     </figure>
