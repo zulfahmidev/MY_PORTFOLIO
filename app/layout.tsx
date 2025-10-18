@@ -6,6 +6,7 @@ import Footer from "@/components/layout/footer";
 import { Analytics } from "@vercel/analytics/next"
 import { ProgressiveBlur } from "@/components/ui/progressive-blur";
 import { Providers } from "./theme-provider";
+import Script from "next/script";
 
 const suseMono = SUSE({
   variable: "--font-suse-mono",
@@ -103,6 +104,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9634380513791071"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         className={`
           ${suseMono.variable} antialiased font-suse relative
