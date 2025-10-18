@@ -28,14 +28,6 @@ export const metadata: Metadata = {
       "Get high-quality, free, and responsive website templates for your next project. Designed and crafted by Zulfahmidev for developers and startups.",
     url: "https://zulfahmidev.com/template",
     siteName: "Zulfahmidev",
-    images: [
-      {
-        url: "https://zulfahmidev.com/assets/og-template.png", // ganti kalau kamu punya banner khusus
-        width: 1200,
-        height: 630,
-        alt: "Free Website Templates by Zulfahmidev",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
@@ -44,7 +36,6 @@ export const metadata: Metadata = {
     title: "Free Website Templates | Download Modern & Responsive Designs by Zulfahmidev",
     description:
       "Browse and download free, modern, and mobile-friendly website templates built by Zulfahmidev.",
-    images: ["https://zulfahmidev.com/assets/og-template.png"],
   },
 }
 
