@@ -31,7 +31,7 @@ const AdComponent: React.FC<AdComponentProps> = ({ adSlot, adFormat = 'auto', ad
   return (
     <ins className="adsbygoogle"
       style={{ display: 'block', width: '100%' }}
-      data-ad-client="ca-pub-9634380513791071"
+      data-ad-client="ca-pub-2636188303394824"
       data-ad-slot={adSlot}
       data-ad-format={adFormat}
       data-full-width-responsive={adResponsive ? "true" : "false"}

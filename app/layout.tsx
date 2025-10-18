@@ -95,9 +95,9 @@ export const metadata: Metadata = {
   applicationName: "Zulfahmidev",
   category: "Portfolio",
   generator: "Next.js 14",
-  
+
   other: {
-    "google-adsense-account": "ca-pub-9634380513791071",
+    "google-adsense-account": "ca-pub-2636188303394824",
   },
 };
 
@@ -111,7 +111,7 @@ export default function RootLayout({
       <head>
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9634380513791071"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2636188303394824"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />

@@ -13,7 +13,7 @@ export default async function TemplateDownloadPage({params: { slug }} : {
         <section className="min-h-[80vh] flex items-center justify-center flex-col px-5 lg:px-0 text-center py-32">
             <Notice data={data} />
             <div style={{ width: '100%', minHeight: '100px' }} className="my-6">
-                <AdComponent adSlot="6605955342" adFormat="auto" adResponsive={true} />
+                <AdComponent adSlot="4785800735" adFormat="auto" adResponsive={true} />
             </div>
         </section>
     )
