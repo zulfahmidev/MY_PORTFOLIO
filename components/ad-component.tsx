@@ -8,14 +8,20 @@ interface AdComponentProps {
   adResponsive?: boolean
 }
 
+declare global {
+  interface Window {
+    adsbygoogle: unknown[];
+  }
+}
+
 const AdComponent: React.FC<AdComponentProps> = ({ adSlot, adFormat = 'auto', adLayout = '', adResponsive = false }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       try {
-        (window as any).adsbygoogle = (window as any).adsbygoogle || [];
-        (window as any).adsbygoogle.push({});
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.adsbygoogle.push({});
       } catch (e) {
-        console.error('Error loading ads:', e);
+        console.error("Error loading ads:", e);
       }
     }, 300);
 

@@ -1,7 +1,5 @@
 import { AnimatedShinyText } from "@/components/ui/animated-shiny-text"
 import { ReadData } from "@/lib/helper"
-import Image from "next/image"
-import Link from "next/link"
 import TemplateCard from "./template-card"
 
 export default async function TemplatePage() {
