@@ -1,6 +1,31 @@
 import { AnimatedShinyText } from "@/components/ui/animated-shiny-text"
 import { ReadData } from "@/lib/helper"
 import TemplateCard from "./template-card"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "All Templates | Zulfahmidev",
+  description:
+    "Explore free and premium website templates designed by Zulfahmidev. Download, customize, and use them for your next web project.",
+  alternates: {
+    canonical: "https://zulfahmidev.com/template",
+  },
+  openGraph: {
+    title: "All Templates | Zulfahmidev",
+    description:
+      "Discover beautiful, responsive website templates crafted by Zulfahmidev. Free to download and easy to use.",
+    url: "https://zulfahmidev.com/template",
+    siteName: "Zulfahmidev",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "All Templates | Zulfahmidev",
+    description:
+      "Browse and download modern website templates by Zulfahmidev.",
+  },
+}
 
 export default async function TemplatePage() {
     const templates = await ReadData('templates.json') as Template[]

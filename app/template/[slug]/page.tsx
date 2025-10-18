@@ -3,6 +3,54 @@ import Image from "next/image"
 import Link from "next/link"
 import { FaArrowLeft } from "react-icons/fa6"
 import TemplateCard from "../template-card"
+import type { Metadata } from "next"
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+    const templates = await ReadData('templates.json') as Template[]
+    const data = templates.find(v => v.slug === params.slug)
+
+    if (!data) {
+        return {
+            title: "Template Not Found | Zulfahmidev",
+            description: "The requested template could not be found.",
+        }
+    }
+
+    const title = `${data.name} Template | Zulfahmidev`
+    const description = data.description || "Free website templates by Zulfahmidev."
+    const image = data.image?.url || "/assets/project.png"
+    const url = `https://zulfahmidev.com/template/${data.slug}`
+
+    return {
+        title,
+        description,
+        alternates: {
+            canonical: url,
+        },
+        openGraph: {
+            title,
+            description,
+            url,
+            siteName: "Zulfahmidev",
+            images: [
+                {
+                    url: image,
+                    width: 1200,
+                    height: 630,
+                    alt: data.image?.alt || data.name,
+                },
+            ],
+            locale: "en_US",
+            type: "article",
+        },
+        twitter: {
+            card: "summary_large_image",
+            title,
+            description,
+            images: [image],
+        },
+    }
+}
 
 export default async function TemplateDetailPage({ params: { slug } }: {
     params: {

@@ -1,6 +1,30 @@
 import Projects from "@/components/layout/projects";
 import { AnimatedShinyText } from "@/components/ui/animated-shiny-text";
 import { ReadData } from "@/lib/helper";
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Portfolio | Zulfahmidev",
+  description:
+    "Here's a curated selection showcasing my expertise and the achieved results.",
+  alternates: {
+    canonical: "https://zulfahmidev.com/portfolio",
+  },
+  openGraph: {
+    title: "Portfolio | Zulfahmidev",
+    description: "Here's a curated selection showcasing my expertise and the achieved results.",
+    url: "https://zulfahmidev.com/portfolio",
+    siteName: "Zulfahmidev",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Portfolio | Zulfahmidev",
+    description:
+      "Here's a curated selection showcasing my expertise and the achieved results.",
+  },
+}
 
 export default async function PortfolioPage() {
     const projects = await ReadData('projects.json')
