@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
         }
     }
 
-    const title = `${data.name} Template | Zulfahmidev`
+    const title = `${data.name} - Template - Zulfahmidev`
     const description = data.description || "Free website templates by Zulfahmidev."
     const image = data.image?.url || "/assets/project.png"
     const url = `https://zulfahmidev.com/template/${data.slug}`
