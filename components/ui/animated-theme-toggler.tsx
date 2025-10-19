@@ -1,7 +1,7 @@
 "use client"
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
-import { Moon, Sun, Monitor } from "lucide-react"
+import { Moon, Sun } from "lucide-react"
 import { flushSync } from "react-dom"
 import { cn } from "@/lib/utils"
 
@@ -12,45 +12,36 @@ export const AnimatedThemeToggler = ({ className }: Props) => {
     () => [
       { name: "light", icon: <Sun /> },
       { name: "dark", icon: <Moon /> },
-      { name: "system", icon: <Monitor /> },
     ],
     []
   )
 
-  const [theme, setTheme] = useState<"system" | "dark" | "light">("system")
+  const [theme, setTheme] = useState<"dark" | "light">("light")
   const buttonRef = useRef<HTMLButtonElement>(null)
 
-  const applyTheme = useCallback((newTheme: "light" | "dark" | "system") => {
+  const applyTheme = useCallback((newTheme: "light" | "dark") => {
     const root = document.documentElement
-    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
-    const effectiveDark = newTheme === "dark" || (newTheme === "system" && systemPrefersDark)
-    root.classList.toggle("dark", effectiveDark)
+    const isDark = newTheme === "dark"
+    root.classList.toggle("dark", isDark)
     localStorage.setItem("theme", newTheme)
   }, [])
 
   useEffect(() => {
-    const saved = localStorage.getItem("theme") as "light" | "dark" | "system" | null
-    const initial = saved || "system"
+    const saved = localStorage.getItem("theme") as "light" | "dark" | null
+    const initial = saved || "light"
     setTheme(initial)
     applyTheme(initial)
-
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
-    const handleChange = () => theme === "system" && applyTheme("system")
-    mediaQuery.addEventListener("change", handleChange)
-    return () => mediaQuery.removeEventListener("change", handleChange)
-  }, [applyTheme, theme])
+  }, [applyTheme])
 
   const toggleTheme = useCallback(async () => {
     if (!buttonRef.current) return
 
-    const currentIndex = themes.findIndex(t => t.name === theme)
-    const nextIndex = (currentIndex + 1) % themes.length
-    const nextTheme = themes[nextIndex].name
+    const nextTheme = theme === "light" ? "dark" : "light"
 
     await document.startViewTransition(() => {
       flushSync(() => {
-        setTheme(nextTheme as "system" | "dark" | "light")
-        applyTheme(nextTheme as "system" | "dark" | "light")
+        setTheme(nextTheme)
+        applyTheme(nextTheme)
       })
     }).ready
 
@@ -75,9 +66,9 @@ export const AnimatedThemeToggler = ({ className }: Props) => {
         pseudoElement: "::view-transition-new(root)",
       }
     )
-  }, [themes, theme, applyTheme])
+  }, [theme, applyTheme])
 
-  const getIcon = () => themes.find(t => t.name === theme)?.icon ?? <Monitor />
+  const getIcon = () => (theme === "dark" ? <Moon /> : <Sun />)
 
   return (
     <button ref={buttonRef} onClick={toggleTheme} className={cn(className)}>
