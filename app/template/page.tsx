@@ -53,7 +53,7 @@ export default async function TemplatePage() {
                         <p className="opacity-50">{`Discover quality templates crafted to build modern and professional websites.`}</p>
                     </div>
                 </div>
-                <div className="grid lg:grid-cols-3 mt-8">
+                <div className="grid lg:grid-cols-3 mt-8 gap-6">
                     {
                         templates.map((data, i) => (
                             <TemplateCard data={data} key={i} />

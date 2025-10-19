@@ -10,5 +10,17 @@
         "description": "Industrial Portfolio is a modern, responsive, and customizable website template designed to showcase company profiles, services, and projects in the industrial sector. It offers a clean layout, clear navigation, and optimized performance, making it perfect for manufacturing, construction, energy, and industrial tech businesses.",
         "downloadUrl": "/templates/portfolio-industri/template-website-portfolio-industri.zip",
         "price": 0
+    },
+    {
+        "image": {
+            "url": "/templates/simple-ecommerce-landing-page/simple-ecommerce-landing-page.jpeg",
+            "alt": "Simple E-Commerce Landing Page"
+        },
+        "isSelected": true,
+        "name": "Simple E-Commerce Landing Page",
+        "slug": "simple-ecommerce-landing-page",
+        "description": "Simple E-Commerce Landing Page is a free, minimalist, and professional website template perfect for showcasing online fashion stores or lifestyle products. With its clean layout, simple navigation, and clear call-to-action buttons, it’s easy to use and fully customizable for any type of business.",
+        "downloadUrl": "https://github.com/zulfahmidev/simple-ecommerce-landing-page/archive/refs/heads/main.zip",
+        "price": 0
     }
 ]

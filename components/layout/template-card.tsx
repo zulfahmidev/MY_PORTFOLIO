@@ -24,7 +24,7 @@ export default function TemplateCard({data} : {
           alt={data.image?.alt ?? ''}
           fill />
         <div className="opacity-0 hover:opacity-100 bg-background/50 backdrop-blur-md absolute left-0 top-o w-full h-full rounded-lg transition-all flex flex-col items-center justify-center gap-3">
-          <div className="capitalize">{data.name}</div>
+          <div className="capitalize text-center">{data.name}</div>
           <div className="flex gap-3">
             <Link href={`/template/${data.slug}/download`} className="w-fit py-2 px-4 text-sm text-background rounded-lg bg-foreground cursor-pointer">
               <FaDownload />

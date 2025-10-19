@@ -11,6 +11,7 @@ export default function Notice({data} : {
         if (timeLeft <= 0) {
             const link = document.createElement("a");
             link.href = data.downloadUrl
+            link.download = data.slug + ".zip"
             link.click();
             return;
         }

@@ -111,7 +111,7 @@ export default async function TemplateDetailPage({ params: { slug } }: {
             </article>
             <aside className="">
                 <h2 className="text-xl mt-8 font-semibold">Other Templates</h2>
-                <div className="grid lg:grid-cols-3 mt-6">
+                <div className="grid lg:grid-cols-3 mt-6 gap-6">
                     {
                         templates.map((data, i) => (
                             <TemplateCard data={data} key={i} />
