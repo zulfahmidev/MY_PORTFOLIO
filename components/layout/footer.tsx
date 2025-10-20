@@ -11,13 +11,13 @@ export default function Footer() {
                         <a href="" className="opacity-50 hover:opacity-100">Home</a>
                     </li> */}
                     <li>
-                        <Link href={`/#about`} className="opacity-50 hover:opacity-100">About</Link>
+                        <Link className="opacity-50 hover:opacity-100" href="/profile">Profile</Link>
                     </li>
                     <li>
-                        <Link href="/#portfolio" className="opacity-50 hover:opacity-100">Portfolio</Link>
+                        <Link className="opacity-50 hover:opacity-100" href="/portfolio">Portfolio</Link>
                     </li>
                     <li>
-                        <Link href="/#contact" className="opacity-50 hover:opacity-100">Contact</Link>
+                        <Link className="opacity-50 hover:opacity-100" href="/template">Templates</Link>
                     </li>
                     {/* <li>
                         <a href="" className="opacity-50 hover:opacity-100">Apps</a>

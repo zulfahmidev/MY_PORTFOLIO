@@ -50,13 +50,13 @@ export default function Navbar() {
                             <a className="opacity-50 hover:opacity-100" href="">Home</a>
                         </li> */}
                         <li>
-                            <Link className="opacity-50 hover:opacity-100" href="/#about">About</Link>
+                            <Link className="opacity-50 hover:opacity-100" href="/profile">Profile</Link>
                         </li>
                         <li>
-                            <Link className="opacity-50 hover:opacity-100" href="/#portfolio">Portfolio</Link>
+                            <Link className="opacity-50 hover:opacity-100" href="/portfolio">Portfolio</Link>
                         </li>
                         <li>
-                            <Link className="opacity-50 hover:opacity-100" href="/#contact">Contact</Link>
+                            <Link className="opacity-50 hover:opacity-100" href="/template">Templates</Link>
                         </li>
                         {/* <li>
                             <a className="opacity-50 hover:opacity-100" href="">Apps</a>
