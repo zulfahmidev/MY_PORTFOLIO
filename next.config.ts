@@ -5,13 +5,14 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self';",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://fundingchoicesmessages.google.com;",
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://fundingchoicesmessages.google.com https://www.google.com https://www.google-analytics.com;",
       "style-src 'self' 'unsafe-inline';",
       "img-src 'self' data: https:;",
-      "connect-src 'self' https://www.google-analytics.com https://fundingchoicesmessages.google.com;",
-      "frame-src https://fundingchoicesmessages.google.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com;",
+      "connect-src 'self' https://www.google-analytics.com https://fundingchoicesmessages.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://ep1.adtrafficquality.google https://tpc.googlesyndication.com https://googleads.g.doubleclick.net;",
+      "frame-src https://www.google.com https://fundingchoicesmessages.google.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com;",
       "object-src 'none';",
       "base-uri 'self';",
+      "form-action 'self';",
     ].join(" "),
   },
   {
@@ -24,11 +25,11 @@ const securityHeaders = [
   },
   {
     key: "X-Frame-Options",
-    value: "DENY",
+    value: "SAMEORIGIN", // ganti dari DENY → biar Adsense iframe tidak diblokir
   },
   {
     key: "Permissions-Policy",
-    value: "camera=(), microphone=(), geolocation=()",
+    value: "camera=(), microphone=(), geolocation=(), payment=()",
   },
   {
     key: "Strict-Transport-Security",
