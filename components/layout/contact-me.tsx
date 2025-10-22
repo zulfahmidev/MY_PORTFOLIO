@@ -50,14 +50,14 @@ export default function ContactMe() {
                     <div className="relative p-8 rounded-xl border border-foreground/15">
                         <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
                         <div className="mb-3">
-                            <label htmlFor="">Fullname</label>
-                            <input type="text" onInput={(v) => {
+                            <label htmlFor="fullname">Fullname</label>
+                            <input type="text" id="fullname" onInput={(v) => {
                                 setFullname(v.currentTarget.value)
                             }} className="py-2 px-3 rounded-md border w-full my-2" placeholder="Type fullname" />
                         </div>
                         <div className="mb-3">
-                            <label htmlFor="">Message</label>
-                            <textarea onInput={(v) => {
+                            <label htmlFor="message">Message</label>
+                            <textarea id="message" onInput={(v) => {
                                 setMessage(v.currentTarget.value)
                             }} className="py-2 px-3 rounded-md border w-full my-2" rows={5} placeholder="Type messages"></textarea>
                         </div>
