@@ -48,7 +48,7 @@ export default async function TemplatePage() {
                     <div className="">
                         <h1 className="text-primary text-xl">Templates</h1>
                         <div className="text-5xl font-bold my-2">
-                            <AnimatedShinyText>All Templates</AnimatedShinyText>
+                            All Templates
                         </div>
                         <p className="opacity-50">{`Discover quality templates crafted to build modern and professional websites.`}</p>
                     </div>
