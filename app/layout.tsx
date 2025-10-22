@@ -115,7 +115,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        <Script id="google-fc-present" strategy="afterInteractive">
+        {/* <Script id="google-fc-present" strategy="afterInteractive">
           {`
             (function() {
               function signalGooglefcPresent() {
@@ -134,7 +134,7 @@ export default function RootLayout({
               signalGooglefcPresent();
             })();
           `}
-        </Script>
+        </Script> */}
       </head>
       <body
         className={`
