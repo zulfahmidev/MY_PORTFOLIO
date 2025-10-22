@@ -18,13 +18,13 @@ export default function Education() {
                     </div>
                     <div className="py-3">
                         <h3 className="text-2xl font-semibold">Politeknik Negeri Lhokseumawe</h3>
-                        <h4 className="text-lg">Teknologi Rekayasa Komputer Jaringan - S.Tr.T</h4>
-                        <div className="flex gap-3 items-center text-sm">
+                        <h4 className="font-semibold">Teknologi Rekayasa Komputer Jaringan - S.Tr.T</h4>
+                        <div className="flex gap-3 items-center">
                             <p>GPA <strong>3.72 / 4.0</strong></p>
                             <div className="w-1 h-1 rounded-full bg-foreground"></div>
                             <time dateTime="2020-09">Sep 2020</time> - <time dateTime="2024-10">Oct 2024</time>
                         </div>
-                        <ul className="list-disc px-6 text-sm text-foreground mt-3 leading-relaxed">
+                        <ul className="list-disc px-6 text-foreground/80 mt-3 leading-relaxed">
                             <li>{`Completed a final project titled "Implementation of Document Storage Using Google Cloud Storage in the Vocaject Application".`}</li>
                             <li>Served as Chairman of the student organization Polytechnic Linux Community (UKM POLICY) for the 2022-2023 period.</li>
                             <li>Achieved 3rd place in Hackathon category at the 5th National Informatics Student Competition (2023) with Vocaject app (Laravel, Vue, Flutter, MySQL) as Full Stack Developer and Team Leader.</li>

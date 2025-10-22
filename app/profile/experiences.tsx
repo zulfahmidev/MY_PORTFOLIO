@@ -60,12 +60,12 @@ function ExperienceCard({data} : {data: Experience}) {
         <article>
             <h3 className="text-2xl font-semibold">{data.Company}</h3>
             <h4 className="font-semibold">{data.Position}</h4>
-            <div className="flex gap-3 items-center text-sm">
+            <div className="flex gap-3 items-center">
                 <span>{data.Location}</span>
                 <div className="w-1 h-1 rounded-full bg-foreground"></div>
                 <time dateTime={data.Estimate}>{data.Estimate}</time>
             </div>
-            <ul className="list-disc px-6 text-sm text-foreground mt-3">
+            <ul className="list-disc px-6 text-foreground/80 mt-3">
                 {
                     data.Description.map((v, i) => (
                         <li key={i}>{v}</li>

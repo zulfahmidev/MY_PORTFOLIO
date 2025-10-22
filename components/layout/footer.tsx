@@ -30,9 +30,9 @@ export default function Footer() {
                     </li> */}
                 </ul>
                 <div className="flex items-center justify-center gap-6 my-8">
-                    <a href="https://linkedin.com/in/zulfahmidev" className="opacity-50 hover:opacity-100"><FaLinkedinIn className="text-2xl" /></a>
-                    <a href="https://github.com/zulfahmidev" className="opacity-50 hover:opacity-100"><FaGithub className="text-2xl" /></a>
-                    <a href="https://instagram.com/zulfahmi4_" className="opacity-50 hover:opacity-100"><FaInstagram className="text-2xl" /></a>
+                    <a href="https://linkedin.com/in/zulfahmidev" aria-label="Linkedin" className="opacity-50 hover:opacity-100"><FaLinkedinIn className="text-2xl" /></a>
+                    <a href="https://github.com/zulfahmidev" aria-label="Github" className="opacity-50 hover:opacity-100"><FaGithub className="text-2xl" /></a>
+                    <a href="https://instagram.com/zulfahmi4_" aria-label="Instagram" className="opacity-50 hover:opacity-100"><FaInstagram className="text-2xl" /></a>
                 </div>
                 <div className="text-center opacity-50">
                     &copy; 2025 <a href="https://zulfahmidev.com" className="font-bold">Zulfahmidev</a>, Inc. All rights reserved.
