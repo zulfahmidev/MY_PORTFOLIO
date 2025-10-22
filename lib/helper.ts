@@ -8,3 +8,8 @@ export async function ReadData(filename: string) {
 
   return result
 }
+
+export function getCanonicalUrl(pathname: string) {
+  const baseUrl = "https://zulfahmidev.com";
+  return pathname === "/" ? baseUrl : `${baseUrl}${pathname}`;
+}

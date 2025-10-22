@@ -85,6 +85,9 @@ export const metadata = {
       ],
     }),
   },
+  alternates: {
+    canonical: "https://zulfahmidev.com/profile",
+  },
 }
 
 export default function ProfilePage() {
