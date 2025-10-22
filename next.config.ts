@@ -5,10 +5,10 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self';",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://fundingchoicesmessages.google.com https://www.google.com https://www.google-analytics.com;",
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://fundingchoicesmessages.google.com https://www.google.com https://www.google-analytics.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google;",
       "style-src 'self' 'unsafe-inline';",
       "img-src 'self' data: https:;",
-      "connect-src 'self' https://www.google-analytics.com https://fundingchoicesmessages.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://ep1.adtrafficquality.google https://tpc.googlesyndication.com https://googleads.g.doubleclick.net;",
+      "connect-src 'self' https://www.google-analytics.com https://fundingchoicesmessages.google.com https://pagead2.googlesyndication.com https://adservice.google.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://tpc.googlesyndication.com https://googleads.g.doubleclick.net;",
       "frame-src https://www.google.com https://fundingchoicesmessages.google.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com;",
       "object-src 'none';",
       "base-uri 'self';",
