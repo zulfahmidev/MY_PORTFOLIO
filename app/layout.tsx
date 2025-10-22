@@ -72,10 +72,6 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
 
-  // Theme
-  themeColor: "#ffffff",
-  colorScheme: "light dark",
-
   // Robots (SEO directives)
   robots: {
     index: true,
@@ -101,6 +97,11 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport = {
+  themeColor: "#ffffff",
+  colorScheme: "light dark",
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -109,12 +110,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <Script
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2636188303394824"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        ></script>
         {/* <Script id="google-fc-present" strategy="afterInteractive">
           {`
             (function() {

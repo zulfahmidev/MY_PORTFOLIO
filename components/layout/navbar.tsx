@@ -37,11 +37,13 @@ export default function Navbar() {
                         className="h-full dark:hidden inline-block"
                         src="/assets/logo-black.png"
                         alt="logo black zulfahmidev"
+                        sizes="(max-width: 768px) 32px, 32px"
                         fill />
                     <Image
                         className="h-full hidden dark:inline-block"
                         src="/assets/logo-white.png"
                         alt="logo black zulfahmidev"
+                        sizes="(max-width: 768px) 32px, 32px"
                         fill />
                 </Link>
                 <nav className="">

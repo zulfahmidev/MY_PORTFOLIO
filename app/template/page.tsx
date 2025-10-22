@@ -47,9 +47,7 @@ export default async function TemplatePage() {
                 <div className="lg:flex justify-between items-center">
                     <div className="">
                         <h1 className="text-primary text-xl">Templates</h1>
-                        <div className="text-5xl font-bold my-2">
-                            All Templates
-                        </div>
+                        <div className="text-5xl font-bold my-2">All Templates</div>
                         <p className="opacity-50">{`Discover quality templates crafted to build modern and professional websites.`}</p>
                     </div>
                 </div>
