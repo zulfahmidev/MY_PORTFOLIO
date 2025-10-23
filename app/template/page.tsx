@@ -4,11 +4,12 @@ import TemplateCard from "./template-card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Free Website Templates | Download Modern & Responsive Designs by Zulfahmidev",
+  title: "Free Website Templates 2025 | Download Modern & Responsive Designs by Zulfahmidev",
   description:
     "Download 100% free, modern, and responsive website templates by Zulfahmidev. Perfect for developers, designers, and startups who want clean, professional designs without paying a dime.",
   keywords: [
-    "free website templates",
+    "free website templates 2025",
+    "2025",
     "HTML templates",
     "Next.js templates",
     "React templates",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     canonical: "https://zulfahmidev.com/template",
   },
   openGraph: {
-    title: "Free Website Templates | Download Modern & Responsive Designs by Zulfahmidev",
+    title: "Free Website Templates 2025 | Download Modern & Responsive Designs by Zulfahmidev",
     description:
       "Get high-quality, free, and responsive website templates for your next project. Designed and crafted by Zulfahmidev for developers and startups.",
     url: "https://zulfahmidev.com/template",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free Website Templates | Download Modern & Responsive Designs by Zulfahmidev",
+    title: "Free Website Templates 2025 | Download Modern & Responsive Designs by Zulfahmidev",
     description:
       "Browse and download free, modern, and mobile-friendly website templates built by Zulfahmidev.",
   },
